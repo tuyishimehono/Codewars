@@ -11,7 +11,7 @@ function time(seconds) {
     const parts = [];
 
     if(y>0) {
-        let yDisplay = d > 0 ? d + ' ' + (y == 1 ? "year" : "years") : "";
+        let yDisplay = y > 0 ? y + ' ' + (y == 1 ? "year" : "years") : "";
         parts.push(yDisplay);
     }
   
@@ -41,4 +41,4 @@ function time(seconds) {
     return parts.join(', ');
   }
   
-console.log(time(61));
+console.log(time(69382048));
