@@ -11,7 +11,6 @@ function createValidationProxy(obj) {
   
     return new Proxy(obj, validator);
 }
-  
 const originalObj = {
 age: 25,
 name: 'John Doe'
