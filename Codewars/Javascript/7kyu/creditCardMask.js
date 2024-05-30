@@ -1,6 +1,6 @@
 function maskify(cc) {
     let str = cc.split('');
-      for(let i=0;i<str.length-4;i++){
+      for(let i=0; i<str.length-4; i++){
         str[i] = '#';
       }
       return str.join('');   
