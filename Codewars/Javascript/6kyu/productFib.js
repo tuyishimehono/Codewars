@@ -18,5 +18,15 @@ function productFib(prod){
     } 
     return result; 
 }
+// A solution I saw on codewars that was clever
+// function productFib(prod){
+//     let n = 0;
+//     let nPlus = 1;  
+//     while(n*nPlus < prod) {
+//       nPlus = n + nPlus;
+//       n = nPlus - n;
+//     }
+//     return [n, nPlus, n*nPlus===prod];
+// }
 console.log(productFib(4895))
 console.log(productFib(5895))
