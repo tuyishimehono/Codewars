@@ -9,7 +9,7 @@ function time(seconds) {
   const s = Math.floor(seconds % 60);
 
   const parts = [];
-
+  if (seconds === 0) return "now";
   if (y > 0) {
     let yDisplay = y > 0 ? y + " " + (y == 1 ? "year" : "years") : "";
     parts.push(yDisplay);
@@ -42,4 +42,4 @@ function time(seconds) {
 }
 
 console.log(time(69382048));
-console.log(time(60));
+console.log(time(0));
