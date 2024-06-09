@@ -1,6 +1,6 @@
-function multiply(a, b)
+function multiply(x, y)
 {
-  let num = BigInt(a) * BigInt(b);
+  let num = BigInt(x) * BigInt(y);
   
   return `${num.toString()}`
 
