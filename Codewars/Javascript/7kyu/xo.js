@@ -8,3 +8,4 @@ function XO(str) {
   });
   return count1 === count2;
 }
+console.log(XO('xooowoo'))
