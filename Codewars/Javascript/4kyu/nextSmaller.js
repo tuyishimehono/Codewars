@@ -14,3 +14,4 @@ const nextSmaller = n => {
 console.log(nextSmaller(21)); // output: 12
 console.log(nextSmaller(12334879)); // output: 12334798
 console.log(nextSmaller(2003)); // output: -1
+console.log(nextSmaller(790))
