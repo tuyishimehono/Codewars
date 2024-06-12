@@ -5,3 +5,4 @@ function findSmallestInt(arr) {
       (sm = currentValue < sm ? currentValue : accumulator)
   );
 }
+console.log(findSmallestInt([2,4,9,0,-3]));
