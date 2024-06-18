@@ -9,3 +9,4 @@ function XO(str) {
   return count1 === count2;
 }
 console.log(XO('xooowoo'))
+console.log(XO('XooXooxoo oo'))
