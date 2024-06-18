@@ -8,7 +8,8 @@ function getState(promise) {
         return "fulfilled";
       }
     })
-    .catch((err) => {
+    .catch(() => {
       return "rejected";
     });
 }
+console.log(getState(Promise.resolve()));
