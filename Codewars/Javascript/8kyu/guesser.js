@@ -17,3 +17,5 @@ class Guesser {
       return false;
     }
 }
+let person1 = new Guesser(3,6);
+person1.guess(2);
