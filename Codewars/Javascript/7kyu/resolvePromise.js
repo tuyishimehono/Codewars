@@ -3,3 +3,4 @@ function promiseHelloWorld() {
     resolve("Hello World!");
   });
 }
+console.log(promiseHelloWorld());
