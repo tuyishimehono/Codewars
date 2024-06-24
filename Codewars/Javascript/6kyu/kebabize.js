@@ -10,3 +10,7 @@ function kebabize(str) {
 }
 console.log(kebabize('MyCamelCasedString'))
 console.log(kebabize('myCamelCasedString'))
+console.log(kebabize('MyCamelHas3Humps'))
+console.log(kebabize('myCamelHas3Humps'))
+console.log(kebabize('CAMEL'))
+console.log(kebabize('cAMEL'))
