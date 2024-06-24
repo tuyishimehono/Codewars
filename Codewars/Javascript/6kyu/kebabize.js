@@ -8,3 +8,5 @@ function kebabize(str) {
   });
   return results;
 }
+console.log(kebabize('MyCamelCasedString'))
+console.log(kebabize('myCamelCasedString'))
