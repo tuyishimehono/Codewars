@@ -9,4 +9,6 @@ function duplicateCount(text){
      }
      return duplicate
 }
+console.log(duplicateCount("abcde"), 0);
+console.log(duplicateCount("aabbcde"), 2);
    
