@@ -20,3 +20,4 @@ function productFib(prod) {
 console.log(productFib(4563)) // false
 console.log(productFib(273)) // true
 console.log(productFib(2004)) 
+console.log(productFib(209)) 
