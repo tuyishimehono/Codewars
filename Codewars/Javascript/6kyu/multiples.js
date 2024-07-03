@@ -16,4 +16,5 @@ function solution(number) {
 }
 console.log(solution(10));
 console.log(solution(59));
+console.log(solution(4839));
 
