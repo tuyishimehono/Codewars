@@ -1,1 +1,1 @@
-const xor =(a:boolean, b:boolean):boolean => a !== b ? true : false
+const xor =(a:boolean, b:boolean):boolean => a !== b
