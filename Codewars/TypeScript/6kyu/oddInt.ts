@@ -8,3 +8,5 @@ const findOdd = (xs: number[]): number => {
     }
     return result;
 };
+console.log(findOdd([1,2,2,4,4,5,5]))
+console.log(findOdd([2,4,4,5,5]))
