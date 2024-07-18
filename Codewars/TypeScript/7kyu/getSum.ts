@@ -1,4 +1,4 @@
-export function getSum(a: number, b: number): number {
+function getSum(a: number, b: number): number {
     if (a == b){
       return a;
     }else if (a > b){
@@ -7,3 +7,7 @@ export function getSum(a: number, b: number): number {
       return a + getSum(a+1,b)
     }
 }
+
+getSum(0,1)
+getSum(2,-3)
+getSum(1,1)
