@@ -1,4 +1,4 @@
-function solution(roman: string): number { 
+const romDecoder = (roman: string): number => { 
     const codes: Record<string,number> = {
       I : 1,
       V: 5,
@@ -15,3 +15,5 @@ function solution(roman: string): number {
     })
     return result;
 }
+
+romDecoder('XXI')
