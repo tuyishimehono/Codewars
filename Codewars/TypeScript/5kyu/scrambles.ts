@@ -17,3 +17,7 @@ export function scramble(str1: string, str2: string): boolean {
     }
     return true
 }
+console.log(scramble('rkqodlw', 'world')) // True
+console.log(scramble('cedewaraaossoqqyt', 'codewars')) // True
+console.log(scramble('katas', 'steak')) //False
+console.log(scramble('scriptjavx', 'javascript')) //False
