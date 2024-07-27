@@ -7,3 +7,6 @@ const getCount = (str: string): number => {
     }
     return count;
 }
+
+console.log(getCount('abssaascera'))
+console.log(getCount('brosevroora'))
