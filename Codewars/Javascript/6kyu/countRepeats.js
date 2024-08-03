@@ -6,3 +6,6 @@ function countRepeats(str) {
   });
   return count;
 }
+countRepeats('abbcca')
+countRepeats('AABBBACaCC')
+
