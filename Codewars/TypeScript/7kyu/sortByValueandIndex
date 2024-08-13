@@ -1,0 +1,6 @@
+export function sortByValueAndIndex(array:number[]) : number[] {
+  return array
+    .map((e,i) => ({e, i:i+1}))
+    .sort((a,b) => a.e * a.i - b.e*b.i)
+    .map(({e}) => e)
+}
