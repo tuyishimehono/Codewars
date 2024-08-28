@@ -1,4 +1,4 @@
-function solution(number) {
+function romanEncoder(number) {
   const romanCodes = [
     ["M", 1000],
     ["CM", 900],
